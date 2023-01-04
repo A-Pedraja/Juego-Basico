@@ -23,7 +23,7 @@ tiempo1--;
  document.getElementById("tiempo1").innerHTML = "&nbsp;&nbsp;&nbsp;Tiempo: "+tiempo1 + " ";
  if (tiempo == 0){
     alert("Perdiste");
-    tiempo1 = 60;
+    tiempo1 = 0;
     punto1 = 0;
  }
 
