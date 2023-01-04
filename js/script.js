@@ -13,8 +13,8 @@ function sumarPuntos(){
 
     if (punto1 == 30){
     alert("Ganaste");
-    tiempo = 60;
-    puntos = 0;
+    tiempo1 = 60;
+    punto1 = 0;
     }
 }
 
@@ -23,8 +23,8 @@ tiempo1--;
  document.getElementById("tiempo1").innerHTML = "&nbsp;&nbsp;&nbsp;Tiempo: "+tiempo1 + " ";
  if (tiempo == 0){
     alert("Perdiste");
-    tiempo = 60;
-    puntos = 0;
+    tiempo1 = 60;
+    punto1 = 0;
  }
 
 }
